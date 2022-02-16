@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #caccd1;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fec608;
+    
+  }
+  
+  .navbar li {
+    display: inline-block;
+    
+  }
+
+ .navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    display: block;
+    padding:15px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s;
+    
+    
+  }
+
+  .navbar li a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+ .navbar img{
+     
+     padding:15px;
+     margin-left: 15px;
+ }
+
+ * {
+    box-sizing: border-box;
+  }
+
+ .sideBar-1{
+    float: left;
+    width: 40%;
+    height:1197px; 
+    background: #f1f1f1;
+    padding: 20px;
+    margin-left: 0px;
+    /*text-align: center;*/
+    
+
+ }
+
+ .sideBar-1 img{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    text-align: center;
+    width: 1250%;
+ }
+ .personal_information{
+    margin-top: 20px;
+    text-align: center;
+ }
+.personal_information ul{
+    text-align: left;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+
+ .sideBar-1 .personal_information a{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+
+ .sideBar-2{
+    float: left;
+    padding: 20px;
+    width: 60%;
+    background-color: #f1f1f1;
+    height: auto;
+    margin-right: 0px;
+ }
+ .sideBar-2 h1{
+     color: #fec608;
+ }
+ section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }}
+
+section {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+footer {
+   background-color: #fec608;
+   padding: 10px;
+   text-align: center;
+   color: white;
+ }
